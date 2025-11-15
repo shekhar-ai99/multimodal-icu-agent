@@ -1,0 +1,5 @@
+{
+  "n_test_cases": 15,
+  "predictor_auroc": 1.0,
+  "clinician_score": 0.625
+}

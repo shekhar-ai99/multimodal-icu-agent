@@ -1,0 +1,14 @@
+\begin{table}[h]
+\centering
+\caption{Evaluation Metrics on Test Set (100 dummy ICU patients).}
+\label{tab:metrics}
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Metric} & \textbf{Score} \\
+\hline
+# Test Cases & 15 \\
+AUROC (Predictor) & 1.000 \\
+Clinician Score & 0.625 \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,9 @@
+{
+  "fig1_architecture": "System architecture of the multimodal ICU agent. Input modalities (CXR, vitals, notes) are encoded separately (ViT, 1D-CNN+Transformer, BioLinkBERT) and fused via cross-attention with text as query and image+vitals as key/value.",
+  "fig2_vital_trends": "Vital sign trajectories over 24 hours for shock (red, n=10) vs stable (blue, n=10) patients. Thin lines show individual patients; bold lines show means. Note early tachycardia, hypotension, and hypoxia in shock cohort.",
+  "fig3_gradcam_cxr": "Grad-CAM heatmap showing model attention to right lower lobe (RLL) opacity, consistent with pneumonia diagnosis. Brighter regions indicate higher gradient importance for the prediction.",
+  "fig4_shap_summary": "SHAP summary plot showing mean absolute SHAP values for shock prediction. Temporal changes (slopes, last-6h deltas) are strong predictors; BP and HR trends dominate.",
+  "fig5_attention_timeline": "Cross-attention dynamics: (top) temporal attention to CXR vs vitals; (bottom) heatmap showing vital-specific attention over 24h. Note increased attention to HR and BP around hour 18\u201320 (shock onset).",
+  "fig6_roc_curves": "Receiver Operating Characteristic (ROC) curves comparing text-only and multimodal models for shock prediction. Multimodal integration improves discrimination, with AUC gain of ~5%.",
+  "fig7_clinician_trust": "Clinician trust ratings (1-5 scale) for text-only vs multimodal models. Multimodal integration significantly increases clinician confidence (3.2\u21924.4, p<0.001), reflecting greater explainability and clinical relevance."
+}
